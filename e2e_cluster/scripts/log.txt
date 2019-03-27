@@ -1,0 +1,1 @@
+/home/xuli/fabric-1.1.0/examples/e2e_cli/scripts/script.sh: line 73: peer: command not found

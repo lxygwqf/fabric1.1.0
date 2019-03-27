@@ -1,0 +1,21 @@
+部署说明：
+zookeeper1 172.20.6.145    xuli虚拟机
+zookeeper2 172.20.6.151    chengen虚拟机
+zookeeper3 172.20.6.147    matrix虚拟机
+kafka1     172.20.6.146    dsx虚拟机
+kafka2     172.20.6.144    xiuxiu虚拟机
+kafka4     172.20.6.198    xuli主机
+orderer0   172.20.6.207    matrix主机
+orderer1   172.20.6.181    dsx主机
+orderer2   172.20.6.203    chengen主机
+peer0Org1   172.20.6.122   xiuxiu主机
+peer0Org2   172.20.6.192   wangzhe主机
+
+
+执行说明：
+	直接可以执行以下命令运行
+	bash manual.sh
+
+
+
+docker-org.yaml配置文件里去掉的CA，理论上在tls=false不会有影响；后面如果出错请加上CA模块并且每次生成证书更换sk
